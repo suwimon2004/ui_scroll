@@ -30,7 +30,7 @@ class _MyHomePageState extends State<MyHomePage> {
     final List<String> items = List.generate(50, (index) => "Item ${index + 1}");
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        title: Text('Chapter6'),
         backgroundColor: Colors.blue,
       ),
       body: ListView.builder(itemCount: items.length,
